@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  /* border: 1px solid gray; */
+}
+
+html {
+  font-size: 62.5%;
+  background-color: black;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+a {
+  color: aquamarine;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.video video {
+  height: auto;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 4.2rem;
+  text-align: center;
+}
+
+.travel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.1rem;
+  color: gray;
+  text-align: center;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.phone img {
+  height: auto;
+}
+
+footer {
+  text-align: right;
+  color: gray;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-size: 0.8rem; */
+}
